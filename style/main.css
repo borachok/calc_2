@@ -1,0 +1,27 @@
+.digits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    height: 160px;
+}
+
+.container{
+    position: absolute;
+    top: 27%;
+    left: 43%;
+    max-width: 170px;
+}
+
+.opers{
+    display: flex;
+    justify-content: center;
+}
+.opers>button{
+    width: 60px;
+    margin-bottom: 5px;
+}
+input{
+    height: 20px;
+    margin-bottom: 5px;
+}
+
